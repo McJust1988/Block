@@ -11,4 +11,4 @@ elif input_first_number > input_second_number:
     #print("First number is 3 times larger than the second number")
 
 else:
-    print("You lose")
+    print("Error.Try again!")
