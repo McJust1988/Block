@@ -9,14 +9,12 @@
 first_number = int(input('Введите первое число: '))
 second_number = int(input('Введите второе число: '))
 
-if first_number < second_number:
-    print("Первое число меньше второго числа")
+if first_number >= second_number * 3:
+    print("Первое число больше второго в 3 раза и более")
 
-elif first_number > second_number:
+elif first_number > second_number and first_number < second_number * 3:
     print("Первое число больше второго числа")
 
-elif first_number * 3 > second_number:
-    print("Первое число больше второго в 3 раза")
-
 else:
-    print("Еще раз!")
+    print("Первое число меньше второго числа")
+
