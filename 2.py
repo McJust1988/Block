@@ -1,6 +1,5 @@
 name = input("Введите строку: ")
 last_name = name[:-1]
-start = -1
 str_name = " "
 for i in range(0, len(last_name)):
     if i != 2:
