@@ -1,20 +1,22 @@
-# 1.Ввести произвольное число в консоле
-# Ввести пограничное число в консоле
-# Если 1ое число меньше пограничного, вывести сообщение об этом.
-# Если 1ое число больше пограничного, вывести сообщение об этом.
-# Если 1ое число больше пограничного более, чем в 3 раза, сообщить об этом.
+'''
+1.Ввести произвольное число в консоле
+Ввести пограничное число в консоле
+Если 1ое число меньше пограничного, вывести сообщение об этом.
+Если 1ое число больше пограничного, вывести сообщение об этом.
+Если 1ое число больше пограничного более, чем в 3 раза, сообщить об этом.
+'''
 
-first_number = int(input('First_number:'))
-second_number = int(input('Second_number:'))
+first_number = int(input('Введите первое число: '))
+second_number = int(input('Введите второе число: '))
 
 if first_number < second_number:
-    print("First number is less than the second number")
+    print("Первое число меньше второго числа")
 
 elif first_number > second_number:
-    print("First number is greater than the second number")
+    print("Первое число больше второго числа")
 
 elif first_number * 3 > second_number:
-    print("First number is 3 times larger than the second number")
+    print("Первое число больше второго в 3 раза")
 
 else:
-    print("Error.Try again!")
+    print("Еще раз!")
