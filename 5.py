@@ -7,11 +7,11 @@
 
 list1 = input("введите список слов через запятую: ")
 list1 = list1.split(",")
-list_duplicate1 = set(list1)  # множество из 1 списка
+list_duplicate1 = set(list1)  # множество из списка 1
 count1 = len(list1)
 print("в списке {} слов".format(count1))
 list2 = input("ведите 2 список из {} слов через запятую: ".format(count1))
 list2 = list2.split(",")
-list_duplicate2 = set(list2)  # множество из 2 списка
+list_duplicate2 = set(list2)  # множество из списка 2
 dictionary = dict(zip(list1, list2))
 print(dictionary)
