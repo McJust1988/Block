@@ -17,4 +17,3 @@ elif first_number > second_number and first_number < second_number * 3:
 
 else:
     print("Первое число меньше второго числа")
-
