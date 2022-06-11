@@ -59,7 +59,7 @@ while do != "end":
     elif do == "*":
         print(calc.multi(number1=float(input("Введите 1 число: ")), number2=float(input("Введите 2 число: "))))
 
-    elif do == "**":  # Возведение в степень.
+    elif do == "**":   # Возведение в степень.
         print(calc.pow(number1=float(input("Введите 1 число: ")), number2=float(input("Введите 2 число: "))))
 
     elif do == "||":  # Модуль числа.
